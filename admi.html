@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Admin Login</title>
+        <link rel="stylesheet" href="loginStyle.css" id="stylesheet">
+        <script src="grocery.js"></script>
+        <script src="DB.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="adminScreen">
+                <input type="submit" value="Show Orders" class="button" onclick="ShowOrders()"></br></br><p id="res"></p>
+                <div class="input-box">
+                    To remove an order, Please enter a phone number: <input type="text" id="PhoneNumber" name="PhoneNumber">
+                </div>
+            </br></br><input type="submit" value="Remove Order" class="button" onclick="RemoveOrder();ShowOrders()"></br></br>
+                <input type="submit" value="Log Out" class="button" onclick="logOut()">
+        </div>
+            <form id="loginForm">
+                <h1>Admin Login</h1>
+                <div class="input-box">
+                    <input type="text" id="username" name="username" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <input type="submit" value="Login" class="button" onclick="checkLogin(); return false;">
+            </form>
+        </div>
+    </body>
+</html>

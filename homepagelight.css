@@ -1,0 +1,221 @@
+#top {
+    background-color: #061870;
+    margin: 0;
+    padding: 0;
+}
+
+#sun{
+    height: 50;
+    width: 50;
+}
+
+#moon{
+    height: 0;
+    width: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#shade{
+    text-shadow: 2px 2px 8px white, 0 0 1em white, 0 0 0.2em white;
+}
+#toggle{
+    border-radius: 10px;
+    background-color: #071e94;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+#admi{
+    border-radius: 8px;
+    background-color: #071e94;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+#gen{
+    border-radius: 40px;
+    background-color: rgb(27, 39, 60);
+    width: 25%;
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+#bottom {
+    background-color: #061870;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#topTable{
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 1) 80%), url('istockphoto-1314210006-2048x2048.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#productTable{
+       background-image: linear-gradient(white, rgb(167, 186, 238), white);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#form{
+    margin: auto;
+    display: flex;
+    height: 60vh;
+    width: 150vh;
+    border-radius: 5px;
+    border: 1px solid rgb(75, 73, 73);
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg , rgb(217, 220, 234), rgb(96, 127, 214)); 
+}
+
+#formTable{
+    width: 70%;
+}
+
+table {
+    width: 100%;
+    color: white;
+    color : black;
+    border-collapse: collapse;
+}
+
+#saas{
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+#catalog{
+    color: blue;
+}
+#inf {
+    width: 30px;
+    height: 30px;
+    position:absolute;
+}
+
+#show{
+    border-radius: 12px;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+#alignButton{
+
+    vertical-align: top;
+}
+
+.zoom {
+    padding: 0px;
+    transition: transform .2s;
+    transition-delay: 0s;
+    width: 150px;
+    height: 150px;
+    margin: 40 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+
+  .container {
+    position: relative;
+    width: auto;
+  }
+  
+  .image {
+    width: 150;
+    height: 50;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #36C837;
+    overflow: hidden;
+    width: auto;
+    height: 50;
+    transform: scale(0);
+    transition: .3s ease;
+    border-radius: 50px;
+  }
+  
+  .container:hover .overlay {
+    transform: scale(1);
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #fname{
+    width: 40%;
+    height: 100%;
+    border: 5px solid rgba(255, 255, 255, .2);
+    color: black;
+    outline: none;
+    border-radius: 40px;
+  }
+
+  #lname{
+    width: 70%;
+    height: 100%;
+    border: 5px solid rgba(255, 255, 255, .2);
+    color: black;
+    outline: none;
+    border-radius: 40px;
+  }
+
+  #phone{
+    width: 40%;
+    height: 100%;
+    border: 5px solid rgba(255, 255, 255, .2);
+    color: black;
+    outline: none;
+    border-radius: 40px;
+  }
+
+  #email{
+    width: 70%;
+    height: 100%;
+    border: 5px solid rgba(255, 255, 255, .2);
+    color: black;
+    outline: none;
+    border-radius: 40px;
+  }
+
+  #message{
+        width: 60%;
+        height: 100%;
+        border: 5px solid rgba(255, 255, 255, .2);
+        color: black;
+        outline: none;
+        border-radius: 15px;
+  }
+  
+  #showOrder{
+    width: 400px; 
+    margin: auto;
+    text-align: left;
+  }

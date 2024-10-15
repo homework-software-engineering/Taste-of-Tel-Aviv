@@ -1,0 +1,221 @@
+#top {
+    background-color: #3c4043;
+    margin: 0;
+    padding: 0;
+}
+
+#sun{
+    height: 0;
+    width: 0;
+}
+
+#moon{
+    height: 50;
+    width: 50;
+}
+
+body{
+    background-color: rgb(88, 90, 92);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#shade{
+    text-shadow: 2px 2px 8px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+#toggle{
+    border-radius: 10px;
+    background-color: rgb(72, 74, 75);
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+#admi{
+    border-radius: 8px;
+    background-color: rgb(72, 74, 75);
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+#gen{
+    border-radius: 12px;
+    background-color: rgb(44, 40, 40);
+    width: 25%;
+    height: 45px;
+    color: white;
+}
+
+#bottom {
+    background-color: #3c4043;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#topTable{
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 15%, rgb(88, 90, 92) 80%), url('istockphoto-1314210006-2048x2048.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#productTable{
+    background-image: linear-gradient(rgb(92, 92, 92), rgb(27, 27, 27), rgb(88, 90, 92));
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#form{
+    margin: auto;
+    display: flex;
+    height: 60vh;
+    width: 150vh;
+    border-radius: 5px;
+    border: 1px solid rgb(75, 73, 73);
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg , rgb(143, 141, 141), rgb(107, 107, 107)); 
+}
+
+#formTable{
+    width: 70%;
+    color : black;
+}
+
+table {
+    width: 100%;
+    color : white;
+    border-collapse: collapse;
+}
+
+#saas{
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+#catalog{
+    color: lightblue;
+}
+
+#inf {
+    width: 30px;
+    height: 30px;
+    position:absolute;
+}
+
+#show{
+    border-radius: 12px;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+#alignButton{
+
+    vertical-align: top;
+}
+
+.zoom {
+  padding: 0px;
+  transition: transform .2s;
+  transition-delay: 0s;
+  width: 150px;
+  height: 150px;
+  margin: 40 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+.container {
+    position: relative;
+    width: auto;
+  }
+  
+  .image {
+    width: 150;
+    height: 50;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #36C837;
+    overflow: hidden;
+    width: auto;
+    height: 50;
+    transform: scale(0);
+    transition: .3s ease;
+    border-radius: 50px;
+  }
+  
+  .container:hover .overlay {
+    transform: scale(1);
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #fname{
+    width: 40%;
+    height: 100%;
+    border: 5px solid rgba(255, 255, 255, .2);
+    color: black;
+    outline: none;
+    border-radius: 40px;
+  }
+
+  #lname{
+    width: 70%;
+    height: 100%;
+    border: 5px solid rgba(255, 255, 255, .2);
+    color: black;
+    outline: none;
+    border-radius: 40px;
+  }
+
+  #phone{
+    width: 40%;
+    height: 100%;
+    border: 5px solid rgba(255, 255, 255, .2);
+    color: black;
+    outline: none;
+    border-radius: 40px;
+  }
+
+  #email{
+    width: 70%;
+    height: 100%;
+    border: 5px solid rgba(255, 255, 255, .2);
+    color: black;
+    outline: none;
+    border-radius: 40px;
+  }
+
+  #message{
+        width: 60%;
+        height: 100%;
+        border: 5px solid rgba(255, 255, 255, .2);
+        color: black;
+        outline: none;
+        border-radius: 15px;
+  }
+
+  #showOrder{
+    width: 400px; 
+    margin: auto;
+    text-align: left;
+  }

@@ -1,0 +1,383 @@
+<html>
+<head>
+    <title>Taste of Tel-Aviv</title>
+    <link rel="stylesheet" href="homepagelight.css" id="stylesheet">
+    <script src="grocery.js"></script>
+    <script src="DB.js"></script>
+    <link href="Admi.html">
+
+</head>
+<body>
+    <table id="topTable">
+        <tr id="top">
+            <th><img src="logo.png" width="200" height="34"> </th>
+            <th><button id="admi" type="button" onClick="admiPage()">Admin Login</button><a>‎  ‎ ‎ </a><button id="toggle" type="button" onClick="toggleMode()">Toggle Light/Dark Mode</button></th>
+            <th><img id="sun" src="sun1.png"><img id="moon" src="moon1.png"></th>
+        </tr>
+    
+        <tr>
+            <th></br></br></br></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th id="shade"><h2>About us</h2></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th id="shade">Taste of Tel-Aviv was founded by a couple from Israel who immigrated to the U.S and wanted to bring Israeli food to the land of the free!</br></br></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th id="shade"><h2>You can find us in Tampa,Florida!</h2></br></br></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>
+                <table id="saas">
+                    <tr>
+                        <th id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d134644.39427733998!2d-82.48316889809584!3d27.98143142128612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20FL%2C%20USA!5e0!3m2!1sen!2sil!4v1707330657662!5m2!1sen!2sil" width="225" height="225" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </th>
+                    </tr>
+
+                </table>
+            </th>
+
+            <th></th>
+
+
+        </tr>
+
+        <tr>
+            <th></th>
+            <th><h2>Opening Times</h2></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Monday-Friday: 08:30AM-04:00PM</br>Saturday-Sunday: Closed</br></br></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><h2 id="catalog">Our Catalog</br></br></h2></th>
+            <th></th>
+        </tr>
+    </table>
+    <table id="productTable"> 
+        <tr>
+            <th>
+                <img src="bamba.png" class="zoom" width="200" height="200"><a href="https://en.wikipedia.org/wiki/Bamba_(snack)"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+                </br>Bamba $4.29<select id="item1" name="item1">
+                    <option value="zero">0</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                    </select>
+            </th>
+            <th>
+                <img src="Tahini.png" class="zoom" width="200" height="200"><a href="https://www.wikidata.org/wiki/Q102242426"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+                </br>Har Bracha Tahini $14.99<select id="item2" name="item2">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+            <th>
+                <img src="bissligrill.png" class="zoom" width="200" height="200"><a href="https://en.wikipedia.org/wiki/Bissli"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+                </br>Bissli Grill $4.59<select id="item3" name="item3">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+            </br></br></br>
+                <img src="Ptitim.png" class="zoom" width="200" height="200"><a href="https://en.wikipedia.org/wiki/Israeli_couscous"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Israeli Couscous $6.29<select id="item4" name="item4">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+            <th>
+            </br></br></br>
+                <img src="shkedeimarak.png" class="zoom" width="200" height="200"><a href="https://en.wikipedia.org/wiki/Shkedei_marak"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Mini Croutons $11.59<select id="item5" name="item5">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+            <th>
+            </br></br></br>
+                <img src="CreamySoftCheese.png" class="zoom" width="200" height="200"><a href="https://en.wikipedia.org/wiki/Gvina_levana"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Gvina Levana $6.99<select id="item6" name="item6">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+            </br></br></br>
+                <img src="HASHAHAR.png" class="zoom" width="200" height="200"><a href="https://en.wikipedia.org/wiki/Hashachar_Ha'ole"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Hashachar Chocolate Spread $13.90<select id="item7" name="item7">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+            <th>
+            </br></br></br>
+                <img src="Bazooka.png" class="zoom" width="200" height="200"> <a href="https://www.strauss-group.com/brand/bazooka/"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Bazooka Bubble Gum $13.90<select id="item8" name="item8">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+            <th>
+            </br></br></br>
+                <img src="TurkishCoffee.png" class="zoom" width="200" height="200"><a href="https://www.youtube.com/watch?v=-dQBu02yjp8"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Turkish Coffee $8.90<select id="item9" name="item9">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+            </br></br></br>
+                <img src="halva-removebg-preview.png" class="zoom" width="200" height="200"><a href="https://en.wikipedia.org/wiki/Halva"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Halva $22.90<select id="item10" name="item10">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+            <th>
+            </br></br></br>
+                <img src="pesekZman-removebg-preview.png" class="zoom" width="200" height="200"> <a href="https://en.wikipedia.org/wiki/Pesek_Zman"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Pesek-Zman $7.50<select id="item11" name="item11">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+            <th>
+            </br></br></br>
+                <img src="wine.png" class="zoom" width="200" height="200"><a href="https://wnf.co.il/raziel-red-blend"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Raziel Red Blend $49.90<select id="item12" name="item12">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+        </tr> 
+        <tr>
+            <th></th>
+            <th>
+            </br></br></br><h2>Brand new!</h2></br><h2>We opened a bakery, Israeli bread freshly baked daily! </h2></br></br></br>
+            </th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>
+            </br></br></br>
+                <img src="pita-removebg-preview.png" class="zoom" width="200" height="200"><a href="https://en.wikipedia.org/wiki/Pita"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Pita $5.90<select id="item13" name="item13">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+            <th>
+            </br></br></br>
+                <img src="Challah.png" class="zoom" width="200" height="200"> <a href="https://en.wikipedia.org/wiki/Challah"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+                </br>Challah $4.50<select id="item14" name="item14">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+            <th>
+            </br></br></br>
+                <img src="PitaZaatar-removebg-preview.png" class="zoom" width="200" height="200"><a href="https://www.thespruceeats.com/pita-with-zaatar-parve-2121768"><img id="inf" src="information.jpg" alt="Wiki page" title="about this product"></a>
+            </br>Pita with Za'atar $3.90<select id="item15" name="item15">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select>
+            </th>
+        </tr>
+
+        <tr>
+            <th></th>
+            <th></br><button id="gen" type="button" onClick="calcPrice()">Calculate Price</button></br><p id="total">0$</p></th>
+            <th></th>
+
+        </tr>
+        <tr>
+            <th></th>
+            <th>
+                </br>Still having trouble picking? Here's a commercial for our best-selling product!</br></br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WS65ILZncwc?si=G0o91qgtkOPQZHRV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </br></br>
+            Here's some words from our loyal customers!</br>
+            <blockquote id="tweet" class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Just bought at Taste of Tel-Aviv, the staff were nice and they had a pretty good selection. would recommend!</p>&mdash; Mike Oxsmall (@dxdy_sigma) <a href="https://twitter.com/dxdy_sigma/status/1760190674345902482?ref_src=twsrc%5Etfw">February 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></br></br>To proceed with the order, please enter your information below:</br></th>
+            <th></th>
+        </tr>
+    </table>
+    <form id="form">
+    <table id="formTable">
+        <tr>
+            <td>First Name:</br> <input type="text" id="fname" name="fname"></td>
+            <td>Last Name: </br><input type="text" id="lname" name="lname"></td>
+        </tr>
+        <tr>
+            <td></br>Phone number:</br> <input type="text" id="phone" name="phone"></td>
+            <td></br>Email:</br> <input type="text" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>
+            </br>
+                Choose a day: <select id="day" name="day">
+                <option value="chooseDay">choose</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                </select>
+            </td>
+            <td>
+                Choose time: <select id="time" name="time">
+                <option value="chooseTime">choose</option>
+                <option value="830">08:30AM</option>
+                <option value="900">09:00AM</option>
+                <option value="930">09:30AM</option>
+                <option value="1000">10:00AM</option>
+                <option value="1030">10:30AM</option>
+                <option value="1100">11:00AM</option>
+                <option value="1130">11:30AM</option>
+                <option value="1200">12:00PM</option>
+                <option value="1230">12:30PM</option>
+                <option value="1300">01:00PM</option>
+                <option value="1330">01:30PM</option>
+                <option value="1400">02:00PM</option>
+                <option value="1430">02:30PM</option>
+                <option value="1500">03:00PM</option>
+                <option value="1530">03:30PM</option>
+                <option value="1600">04:00PM</option>
+                </select>
+             </td>
+        </tr>
+        <tr>
+            <td></br>Any other notes about your order?</br></td>
+        </tr>
+        <tr>
+            <td><textarea id="message" name="msg" rows="8" cols="35">insert your message</textarea></td>
+        </tr>
+        <tr>
+            <td></br><input id="gen" type="button" value="Finish Order" onclick="verifyInput()"> <input id="gen" type="button" value="Empty Form" onclick="cleanForm()"></td>
+        </tr>
+    </table>
+    </form>
+    <table>
+        <tr>
+            <th></th>
+            <th></br><p id="showOrder"></p></br></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Something is not working? Contact us</th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>
+                <div class="container">
+                    <img src="phone.png" alt="phone" class="image">
+                    <div class="overlay">
+                        <div class="text">(+1) 813-1234</div>
+                    </div>
+                </div>
+            </th>
+            <th></th>
+        </tr>
+    </table>
+    </br>
+    <table id="bottom">
+        <tr>
+        <td></br></td>
+        </tr>
+        <tr>
+            <th></th>
+            <th><h6>© 2024-2024. All rights reserved to no one because this is not a real site.</h6></th>
+            <th></th>
+        </tr>
+
+
+    </table>
+
+</body>
+</html>
